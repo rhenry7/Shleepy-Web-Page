@@ -1,0 +1,165 @@
+body {
+    background: url('imgs/background.svg');
+    background-size: inherit;
+    background-size: initial;
+    background-size: unset;
+    /* background: #0a0133; */
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-style: normal;
+}
+
+#square {
+    background-color: #463aa0;
+    border: 0px solid rgb(255, 255, 255);
+    color: #fff;
+    border-radius: 5px;
+}
+
+#square:hover {
+    background-color: #6f60e2;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#square.active {
+    background-color: #442fff;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.piano {
+    padding: 180px;
+    padding-top: 380px;
+    width: 50px;
+}
+
+.pads {
+    display: grid;
+    grid-gap: 100px;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(2, 200px);
+    position: absolute;
+    /* padding: 1000px 2px 7px 2px; */
+    bottom: -50px;
+    left: 240px;
+}
+
+.card {
+    background-color: #0a013300;
+    display: flex;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 20%;
+}
+
+.card-group {
+    height: 20%;
+}
+
+.card-text {
+    color: #ffffff;
+}
+
+.card-title {
+    color: #ffffff;
+    font-size: 2.0rem;
+}
+
+.blurb h2 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 8.0rem;
+}
+
+.blurb h3 {
+    color: #20a091;
+    font-weight: 700;
+    font-size: 4.0rem;
+}
+
+.blurb p {
+    color: #ffffff;
+    font-weight: 20;
+    font-size: 2.15rem;
+    line-height: 2;
+}
+
+.p {
+    font-weight: 100;
+    font-size: 12.125rem;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #eeff00;
+    /* padding: 1px 2px 1px 2px; */
+    border-bottom: 5px solid #eeff00;
+    ;
+}
+
+.navbar-light .nav-item.active .nav-link,
+.navbar-light .nav-item .nav-link:active,
+.navbar-light .nav-item .nav-link:focus,
+.navbar-light .nav-item:hover .nav-link {
+    color: #00B159;
+}
+
+#mainNavbar .navbar-brand {
+    color: #ffffff;
+    font-size: 2.5rem;
+}
+
+#headingGroup span {
+    color: #ea1c2c;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.navbar.scrolled {
+    /* background: #0a013309;
+    ;
+    transition: background 500ms; */
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+}
+
+.btn-warning {
+    background-color: #eeff00;
+    border: 0px;
+    border-radius: 12px;
+}
+
+#magic-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    height: 4px;
+    background: #eeff00;
+}

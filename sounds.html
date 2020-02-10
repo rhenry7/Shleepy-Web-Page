@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--  Adobe TypeKit Font -->
+    <link rel="stylesheet" href="https://use.typekit.net/vle6zik.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="sounds.css">
+    <!-- link to sound functions -->
+    <script src="script.js" defer></script>
+
+
+    <title>Shleepy Player</title>
+</head>
+
+<body>
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md fixed-top navbar-inverse">
+        <a class="navbar-brand" href="#">
+            <img src="imgs/logo.svg" width="120" height="120" class="ml-5" alt="">
+        </a>
+        <div class="w-100 text-right"></div>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        </div>
+        <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar7">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="sounds.html" class="nav-link">Sounds</a>
+                </li>
+                <li class="nav-item">
+                    <a href="blog.html" class="nav-link">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Account</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <section class="container-fluid py-4 px-2">
+        <div class="row align-items-center content">
+
+            <div class="col-md-8  order-1 order-md-2">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                        <h2 class="">Shleep Fast.</h2>
+                        <h2 class="">Shleep Easy.</h2>
+                        <p class="text-left"> Choose from a selection of curated sounds or customize a soundscape by selecting multiple sounds. More sounds coming soon.</p>
+                        <br>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="piano" id="key" class="key">
+        <div class="pads" id="key">
+            <div data-note="Db" class="key black" id="square">
+                <img src="imgs/icons/Calm_Night.svg" style="width:185px;height:200px;padding: 1em; padding-left: 2em;" alt="">
+                <h3 style="padding-top: 10pt;">Cool Night</h3>
+
+            </div>
+            <div data-note="G" class="key black" id="square">
+                <img src="imgs/icons/Ocean.svg" style="width:185px;height:200px;padding: 1em; padding-left: 2em;" alt="">
+                <h3 style="padding-top: 10pt;">Ocean</h3>
+            </div>
+            <div data-note="Gb" class="key black" id="square">
+                <img src="imgs/icons/Rain.svg" style="width:185px;height:200px;padding: 1em; padding-left: 2em;" alt="">
+                <h3 style="padding-top: 10pt;">Heavy Rain</h3>
+            </div>
+            <div data-note="Ab" class="key black" id="square">
+                <img src="imgs/icons/Tropical.svg" style="width:185px;height:200px;padding: 1em; padding-left: 2em;" alt="">
+                <h3 style="padding-top: 10pt;">Tropical</h3>
+            </div>
+            <div data-note="Bb" class="key black" id="square">
+                <img src="imgs/icons/water.svg" style="width:185px;height:200px;padding: 1em; padding-left: 2em;" alt="">
+                <h3 style="padding-top: 10pt;">Rain</h3>
+            </div>
+            <div data-note="C" class="key black" id="square">
+                <img src="imgs/icons/Ocean_Birds.svg" style="width:185px;height:200px;padding: 1em; padding-left: 2em;" alt="">
+                <h3 style="padding-top: 10pt;">Ocean Birds</h3>
+            </div>
+            <div data-note="D" class="key white" id="square">
+                <img src="imgs/icons/Forrest.svg" style="width:185px;height:200px;padding: 1em; padding-left: 2em;" alt="">
+                <h3 style="padding-top: 10pt;">Forrest</h3>
+            </div>
+            <div data-note="E" class="key white" id="square">
+                <img src="imgs/icons/Night.svg" style="width:185px;height:200px;padding: 1em; padding-left: 2em;" alt="">
+                <h3 style="padding-top: 10pt;">Calm Night</h3>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <audio id="C" src="sounds/seagulls.wav"></audio>
+    <audio id="Db" src="sounds/crickets.wav"></audio>
+    <audio id="D" src="sounds/birds.wav"></audio>
+    <audio id="Eb" src="sounds/rain_02.wav"></audio>
+    <audio id="E" src="sounds/wind.wav"></audio>
+    <audio id="Gb" src="sounds/heavy_rain.mp3"></audio>
+    <audio id="G" src="sounds/waves.wav"></audio>
+    <audio id="Ab" src="sounds/Tropical.wav"></audio>
+    <audio id="Bb" src="sounds/soft_rain.wav"></audio>
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-12 col-md-10">
+                    <p class="copyright text-muted">Copyright &copy; Shleepy 2019</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script>
+        $(function() {
+            $(document).scroll(function() {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+
+</body>
+
+</html>

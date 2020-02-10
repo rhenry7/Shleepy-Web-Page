@@ -1,0 +1,135 @@
+/* html {
+    background: url('imgs/background.svg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+} */
+
+input[type=text]:focus {
+    background-color: #463aa0;
+    border-color: #463aa0;
+    border: #463aa0;
+    outline: none
+}
+
+input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 500px;
+    box-sizing: border-box;
+    border-color: #463aa0;
+    border: 2px solid #463aa0;
+}
+
+input[type=text] {
+    background-color: #0a0133;
+    border-color: #463aa0;
+    color: #eeff00;
+}
+
+.form {
+    padding: 200px 2px 500px 20px;
+    padding-left: 400px;
+    padding-right: 20px;
+    width: 85%;
+    font-size: 2.5rem;
+}
+
+.input {
+    width: 95%;
+}
+
+
+/* log in button */
+
+input[type=button],
+input[type=submit],
+input[type=reset] {
+    background-color: #463aa0;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    /* margin-top: 30px; */
+    text-decoration: none;
+    margin-bottom: 1px 1px;
+    cursor: pointer;
+    border-radius: 500px;
+}
+
+
+/* sign up button */
+
+input[type=button] {
+    background-color: #20a091;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 100px;
+    outline: none
+}
+
+label {
+    color: #e9e9e9d2;
+    margin-top: 30px;
+    margin: 4px 2px;
+}
+
+body {
+    background: url('imgs/background.svg');
+    /* background: #0a0133; */
+    background-size: 100%;
+    /* background-repeat: repeat; */
+    /* background: #0a0133; */
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-style: normal;
+}
+
+.blurb p {
+    color: #ffffff;
+    font-weight: 20;
+    font-size: 2.15rem;
+    line-height: 2;
+}
+
+.p {
+    font-weight: 100;
+    font-size: 12.125rem;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #eeff00;
+    border-bottom: 5px solid #eeff00;
+}
+
+#mainNavbar .navbar-brand {
+    color: #ffffff;
+    font-size: 2.5rem;
+}
+
+#headingGroup span {
+    color: #ea1c2c;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.navbar.scrolled {
+    background: #0a0133;
+    ;
+    transition: background 200ms;
+}
