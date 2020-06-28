@@ -27,21 +27,19 @@ body {
     border-radius: 5px;
 }
 
-.piano {
-    padding: 180px;
-    padding-top: 380px;
-    width: 50px;
-}
-
 .pads {
     display: grid;
     grid-gap: 100px;
     grid-template-columns: repeat(4, 200px);
     grid-template-rows: repeat(2, 200px);
-    position: absolute;
+    position: static;
     /* padding: 1000px 2px 7px 2px; */
-    bottom: -50px;
-    left: 240px;
+}
+
+.piano {
+    margin-left: 200px;
+    margin-top: -100px;
+    margin-bottom: 50px;
 }
 
 .card {
@@ -139,13 +137,53 @@ body {
     transition: background 500ms; */
 }
 
-@media (max-width: 1200px) {
+@media (max-width:1200px) {
     #headingGroup h1 {
         font-weight: 100;
         font-size: 3rem;
     }
     .blurb h2 {
         font-size: 2rem;
+    }
+    .pads {
+        display: grid;
+        grid-gap: 150px;
+        padding-top: 20px;
+        grid-template-columns: repeat(2, 200px);
+        grid-template-rows: repeat(4, 200px);
+        position: static;
+        margin-bottom: 50px;
+        /* padding: 1000px 2px 7px 2px; */
+    }
+    .piano {
+        margin-left: 50px;
+        margin-top: -100px;
+        margin-bottom: 10px;
+    }
+    .piano h3 {
+        padding-top: 300px;
+    }
+}
+
+@media (max-width:700px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+    .pads {
+        display: grid;
+        grid-gap: 70px;
+        grid-template-columns: repeat(1, 200px);
+        grid-template-rows: repeat(8, 200px);
+        position: static;
+        margin-bottom: 50px;
+        /* padding: 1000px 2px 7px 2px; */
+    }
+    .piano h3 {
+        /* visibility: hidden; */
     }
 }
 

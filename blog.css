@@ -144,6 +144,12 @@ p.post-meta {
     }
 }
 
+@media (max-width: 700px) {
+    h1 {
+        font-size: 3rem;
+    }
+}
+
 .btn-warning {
     background-color: #eeff00;
     border: 0px;
