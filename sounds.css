@@ -1,9 +1,9 @@
 body {
-    background: url('imgs/background.svg');
+    /* background: url('imgs/background.svg'); */
     background-size: inherit;
     background-size: initial;
     background-size: unset;
-    /* background: #0a0133; */
+    background: #0a0133;
     font-family: itc-avant-garde-gothic-pro, sans-serif;
     font-style: normal;
 }
@@ -62,19 +62,19 @@ body {
 
 .card-title {
     color: #ffffff;
-    font-size: 2.0rem;
+    font-size: 2rem;
 }
 
 .blurb h2 {
     color: #ffffff;
     font-weight: 700;
-    font-size: 8.0rem;
+    font-size: 8rem;
 }
 
 .blurb h3 {
     color: #20a091;
     font-weight: 700;
-    font-size: 4.0rem;
+    font-size: 4rem;
 }
 
 .blurb p {
@@ -107,14 +107,13 @@ body {
     color: #eeff00;
     /* padding: 1px 2px 1px 2px; */
     border-bottom: 5px solid #eeff00;
-    ;
 }
 
 .navbar-light .nav-item.active .nav-link,
 .navbar-light .nav-item .nav-link:active,
 .navbar-light .nav-item .nav-link:focus,
 .navbar-light .nav-item:hover .nav-link {
-    color: #00B159;
+    color: #00b159;
 }
 
 #mainNavbar .navbar-brand {
@@ -137,7 +136,7 @@ body {
     transition: background 500ms; */
 }
 
-@media (max-width:1200px) {
+@media (max-width: 1200px) {
     #headingGroup h1 {
         font-weight: 100;
         font-size: 3rem;
@@ -165,7 +164,7 @@ body {
     }
 }
 
-@media (max-width:700px) {
+@media (max-width: 700px) {
     #headingGroup h1 {
         font-weight: 100;
         font-size: 3rem;

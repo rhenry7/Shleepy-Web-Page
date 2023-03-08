@@ -7,8 +7,8 @@
 } */
                 
                 body {
-                    background: url('imgs/background.svg');
-                    /* background: #0a0133; */
+                    /* background: url('imgs/background.svg'); */
+                    background: #0a0133;
                     background-size: inherit;
                     background-size: initial;
                     background-size: unset;
